@@ -16,6 +16,7 @@
 		73F5AF5E2B01C6A40021FED3 /* ComsiganTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F5AF5D2B01C6A40021FED3 /* ComsiganTests.swift */; };
 		73F5AF682B01C6A40021FED3 /* ComsiganUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F5AF672B01C6A40021FED3 /* ComsiganUITests.swift */; };
 		73F5AF6A2B01C6A40021FED3 /* ComsiganUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F5AF692B01C6A40021FED3 /* ComsiganUITestsLaunchTests.swift */; };
+		73F5AF782B01C6B00021FED3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F5AF772B01C6B00021FED3 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		73F5AF632B01C6A40021FED3 /* ComsiganUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComsiganUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F5AF672B01C6A40021FED3 /* ComsiganUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComsiganUITests.swift; sourceTree = "<group>"; };
 		73F5AF692B01C6A40021FED3 /* ComsiganUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComsiganUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73F5AF772B01C6B00021FED3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F5AF782B01C6B00021FED3 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				73F5AF5C2B01C6A40021FED3 /* ComsiganTests */,
 				73F5AF662B01C6A40021FED3 /* ComsiganUITests */,
 				73F5AF442B01C6A30021FED3 /* Products */,
+				73F5AF762B01C6B00021FED3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +129,14 @@
 				73F5AF692B01C6A40021FED3 /* ComsiganUITestsLaunchTests.swift */,
 			);
 			path = ComsiganUITests;
+			sourceTree = "<group>";
+		};
+		73F5AF762B01C6B00021FED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73F5AF772B01C6B00021FED3 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,6 +457,8 @@
 				DEVELOPMENT_TEAM = AHW3MTPZY4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Comsigan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "컴시간 알리미";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -473,6 +487,8 @@
 				DEVELOPMENT_TEAM = AHW3MTPZY4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Comsigan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "컴시간 알리미";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
